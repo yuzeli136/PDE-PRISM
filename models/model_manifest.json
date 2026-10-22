@@ -1,0 +1,18 @@
+{
+  "chemprop_version": "2.2.3",
+  "pytorch_version": "2.11.0+cu130",
+  "ensemble_size": 10,
+  "task_order": ["PDE1", "PDE2", "PDE3", "PDE4", "PDE5", "PDE6", "PDE7", "PDE8", "PDE9", "PDE10", "PDE11"],
+  "checkpoints": [
+    {"repeat_id": 0, "path": "repeat_0/model.pt", "sha256": "cc20c15b9e334f038d850414e142e84600ee25d0262f8e218aa06747b74c73c2"},
+    {"repeat_id": 1, "path": "repeat_1/model.pt", "sha256": "94a9274f696aa432ba8b069a6eba64c040aa23f8cd9cb0e2172dcaffdc6bbde2"},
+    {"repeat_id": 2, "path": "repeat_2/model.pt", "sha256": "29945cb96d0e49c64e1c5212bc5a74147fd36ba98eda9b864fcfbd0a744706b3"},
+    {"repeat_id": 3, "path": "repeat_3/model.pt", "sha256": "3495f0cfa4a3b60f9c27d00465fa9d59a2b964600057c0c4fe1da8ea393413a1"},
+    {"repeat_id": 4, "path": "repeat_4/model.pt", "sha256": "0e337afb31f3662986ff148214bccb2b9a1c3276b55a5bfb6aa3c679cbf0b42e"},
+    {"repeat_id": 5, "path": "repeat_5/model.pt", "sha256": "08616eae91d95790711a048608ec5512c07608833bcc912ec8c5053ac2eade55"},
+    {"repeat_id": 6, "path": "repeat_6/model.pt", "sha256": "be1100cd71b8bf205f37181819033636eaa67448bd6fdd57ee1e38bf99280a12"},
+    {"repeat_id": 7, "path": "repeat_7/model.pt", "sha256": "80bcdc8b95edc217d0f84eb6f4edc7e42820e9c5d553ac00caac000b571484a7"},
+    {"repeat_id": 8, "path": "repeat_8/model.pt", "sha256": "ecdce5b1bbd0f12f6d4ba8584270a3e644b2fd1b7281ca2cdddaf7bb11d56a39"},
+    {"repeat_id": 9, "path": "repeat_9/model.pt", "sha256": "d2a1c06ec3f34f840baf8d4d410376518e9004a4db1a47b494ba3373c82e5b88"}
+  ]
+}
