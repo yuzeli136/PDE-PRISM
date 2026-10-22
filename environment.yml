@@ -1,0 +1,20 @@
+name: pde-prism-1.0
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - pandas=2.2.1
+  - scipy=1.17.1
+  - scikit-learn=1.8.0
+  - matplotlib=3.10.8
+  - pyyaml=6.0.3
+  - tqdm=4.67.3
+  - rdkit=2025.09.6
+  - pip
+  - pip:
+      - chemprop==2.2.3
+      - torch==2.11.0
+      - myerson==1.0.1
+

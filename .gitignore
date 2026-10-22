@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+*.log
+wandb/
+ray_results/
+outputs/
+screening_report.json
+
+# Commercial/source libraries and common large raw-data formats
+*.sdf
+*.sd
+*.mdb
+*.mol2
+*.smi
+SPECS*
+specs*
+
+# Track model weights with Git LFS (recommended) or distribute them in a Release.
